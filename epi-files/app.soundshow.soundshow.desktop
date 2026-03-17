@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Sound Show
+Comment=Advanced Soundboard for Live Performances
+Comment[es]=Mesa de sonido avanzada
+Comment[ca]=Taula de sò avançada
+Exec=/opt/SoundShow/SoundShow.x86_64
+Icon=/opt/SoundShow/SoundShow_Data/Resources/UnityPlayer.png
+Type=Application
+GenericName=Sound Show
+Categories=AudioVideo;Audio;Music
