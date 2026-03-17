@@ -1,0 +1,13 @@
+Source: zero-lliurex-soundshow
+Section: x11
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Build-Depends: debhelper (>= 10), zero-dev, llxsrchelper,inkscape (>= 0.47),python3-poinstaller
+Standards-Version: 4.1.2
+
+Package: zero-lliurex-soundshow
+Architecture: all
+Section: x11
+Depends: zero-center,epi-gtk
+Description: Sound Show
+  Advanced sound board for live performances
