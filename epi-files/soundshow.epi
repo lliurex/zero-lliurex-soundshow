@@ -1,6 +1,6 @@
 {
 	"type":"file",
-	"pkg_list":[{"name":"soundshow","custom_name":"Sound Show: Advanced Soundboard for Live Performances","custom_icon":"soundshow.png"}],
+	"pkg_list":[{"name":"sound-show","custom_name":"Sound Show: Advanced Soundboard for Live Performances","custom_icon":"soundshow.png"}],
 	"script":{"name":"/usr/share/zero-lliurex-soundshow/soundshow_script","remove":true,"download":true,"getStatus":true},
 	"custom_icon_path":"/usr/share/zero-lliurex-soundshow/",
 	"zomando":"zero-lliurex-soundshow",

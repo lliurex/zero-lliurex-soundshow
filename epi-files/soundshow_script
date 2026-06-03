@@ -23,13 +23,13 @@ case $ACTION in
 		cd $d
 		unzip $fname
 		mv -v SoundShow /opt
-		cp /usr/share/zero-lliurex-soundshow/app.soundshow.soundshow.desktop /usr/share/applications
+		/usr/bin/desktop-file-install /usr/share/zero-lliurex-soundshow/app.soundshow.soundshow.desktop 
 	;;
 
 	remove)
 		
 		echo "Removing files..."
-		rm -frv /opt/SoundShow /usr/share/applications/app.soundshow.soundshow.desktop
+		rm -frv /opt/SoundShow /usr/share/applications/app.soundshow.soundshow.desktop || true
 	;;		
 		
 esac
